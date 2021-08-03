@@ -1,0 +1,106 @@
+function setup() {
+createCanvas(400, 400);
+
+// random numbers
+
+
+r = random(400); 
+r1 = random (400);
+r2 = random (400);
+r3 = random (400);
+r4 = random (150, 255);
+r5 = random (400);
+r6 = random (400);
+r7 = random (400);
+r8 = random (400);
+r9 = random (400);
+r10 = random (400);
+r11 = random (400);
+r12 = random (400);
+r13 = random(400);
+r14 = random(400);
+r15 = random(400);
+r16 = random(400);
+r17 = random(400);
+r18 = random(400);
+r19 = random(400);
+r20 = random(400);
+r21 = random(400);
+r22 = random(400);
+r23 = random(400);
+r24 = random(400);
+r25 = random(255);
+r26 = random(255);
+r27 = random(255);
+r28 = random(400);
+r29 = random(400);
+r30 = random(20, 100);
+r31 = random(20, 100);
+r32 = random(400);
+r33 = random(400);
+r34 = random(400);
+r35 = random(400);
+r36 = random(400);
+r37 = random(400);
+r38 = random(400);
+r39 = random(400);
+r40 = random(400);
+r41 = random(400);
+r42 = random(400);
+r43 = random(400);
+r44 = random(400);
+r45 = random(400);
+r46 = random(400);
+r47 = random(400);
+r48 = random(400);
+r49 = random(400/3);
+r50 = random(400/3);
+r51 = random(20,100);
+r52 = random(100,255);
+
+r53 = random(400/3)*2;
+r54 = random(400/3)*2;
+r55 = random(20,100);
+r56 = random(100,255);
+
+
+
+}
+
+function draw() {
+background(0);
+
+
+let c = color(r25, r26, r27, 100);
+fill(c);
+noStroke();
+rectMode(CENTER);
+rect(r28, r29, r30, r31);
+
+stroke(r4)
+line(r, r1, r2, r3);
+stroke (r4)
+line(r5, r6, r7, r8);
+stroke(r4)
+line(r9, r10, r11, r12);
+stroke (r4)
+line(r13, r14, r15, r16);
+stroke (r4)
+line(r13, r14, r15, r16);
+stroke (r4)
+line(r17, r18, r19, r20);
+stroke (r4)
+line(r32, r33, r34, r35);
+stroke (r4)
+line(r36, r37, r38, r39);
+stroke (r4)
+line(r40, r41, r42, r43);
+stroke (r4)
+line(r44, r45, r46, r47);
+
+noStroke();
+circle(r49, r50, r51, r52);
+
+noStroke();
+circle(r53, r54, r55, r56);
+}
